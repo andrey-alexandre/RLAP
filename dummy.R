@@ -8,7 +8,9 @@ use_git()
 a <- factor(c("character", "hits", "your", "eyeballs"))
 b <- factor(c("but", "integer", "where it", "counts"))
 
-use_r("fbind")
+use_r("Models")
+use_r("Predictors")
+use_r("Simulations")
 load_all()
 
 fbind(a, b)
